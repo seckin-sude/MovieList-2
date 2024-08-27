@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3F06E022C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F06E012C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift */; };
 		F51DB50F2C772CF200635EFE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DB50E2C772CF200635EFE /* WebViewController.swift */; };
 		F5BA0EA72C74914E001FF330 /* MovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA0EA62C74914E001FF330 /* MovieListModel.swift */; };
 		F5BA0EA92C74B47C001FF330 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA0EA82C74B47C001FF330 /* MovieCollectionViewCell.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3F06E012C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovieResponseModel.swift; sourceTree = "<group>"; };
 		F51DB50E2C772CF200635EFE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F5BA0EA62C74914E001FF330 /* MovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListModel.swift; sourceTree = "<group>"; };
 		F5BA0EA82C74B47C001FF330 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				F5C437982C64B70D001FED71 /* Assets.xcassets */,
 				F5C4379A2C64B70D001FED71 /* LaunchScreen.storyboard */,
 				F5C4379D2C64B70D001FED71 /* Info.plist */,
+				F3F06E012C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				F5C437942C64B70D001FED71 /* ViewController.swift in Sources */,
 				F5BA0EA92C74B47C001FF330 /* MovieCollectionViewCell.swift in Sources */,
 				F5BA0EAB2C75DA38001FF330 /* DetailViewController.swift in Sources */,
+				F3F06E022C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift in Sources */,
 				F51DB50F2C772CF200635EFE /* WebViewController.swift in Sources */,
 				F5C437902C64B70D001FED71 /* AppDelegate.swift in Sources */,
 				F5C437922C64B70D001FED71 /* SceneDelegate.swift in Sources */,
