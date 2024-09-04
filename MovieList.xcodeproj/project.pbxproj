@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3725E282C88404E008EB388 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3725E272C88404E008EB388 /* ListViewController.swift */; };
+		F3725E2A2C887A9E008EB388 /* MovieTwoColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3725E292C887A9E008EB388 /* MovieTwoColumnCell.swift */; };
 		F3F06E022C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F06E012C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift */; };
 		F51DB50F2C772CF200635EFE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DB50E2C772CF200635EFE /* WebViewController.swift */; };
 		F5BA0EA72C74914E001FF330 /* MovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA0EA62C74914E001FF330 /* MovieListModel.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3725E272C88404E008EB388 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F3725E292C887A9E008EB388 /* MovieTwoColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTwoColumnCell.swift; sourceTree = "<group>"; };
 		F3F06E012C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovieResponseModel.swift; sourceTree = "<group>"; };
 		F51DB50E2C772CF200635EFE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F5BA0EA62C74914E001FF330 /* MovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListModel.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				F5C4378F2C64B70D001FED71 /* AppDelegate.swift */,
 				F5C437912C64B70D001FED71 /* SceneDelegate.swift */,
 				F5C437932C64B70D001FED71 /* ViewController.swift */,
+				F3725E272C88404E008EB388 /* ListViewController.swift */,
+				F3725E292C887A9E008EB388 /* MovieTwoColumnCell.swift */,
 				F5BA0EAA2C75DA38001FF330 /* DetailViewController.swift */,
 				F51DB50E2C772CF200635EFE /* WebViewController.swift */,
 				F5C437952C64B70D001FED71 /* Main.storyboard */,
@@ -158,6 +164,8 @@
 				F5BA0EA92C74B47C001FF330 /* MovieCollectionViewCell.swift in Sources */,
 				F5BA0EAB2C75DA38001FF330 /* DetailViewController.swift in Sources */,
 				F3F06E022C7DF0BF00EDFAA2 /* TrendingMovieResponseModel.swift in Sources */,
+				F3725E2A2C887A9E008EB388 /* MovieTwoColumnCell.swift in Sources */,
+				F3725E282C88404E008EB388 /* ListViewController.swift in Sources */,
 				F51DB50F2C772CF200635EFE /* WebViewController.swift in Sources */,
 				F5C437902C64B70D001FED71 /* AppDelegate.swift in Sources */,
 				F5C437922C64B70D001FED71 /* SceneDelegate.swift in Sources */,
