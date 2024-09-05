@@ -20,7 +20,7 @@ struct Movie {
 }
 
 var movieList:[Movie] = [
-    Movie(image: UIImage(named: "amber_alert"), title: "Amber Alert", desc:"Movie Description will be here", trailer: "https://www.youtube.com/watch?v=Hlo3o8um1FA", duration: 122, releaseDate: "11.11.11", genre:"Drama", rating: "7.2"),
+    Movie(image: UIImage(named: "amber_alert"), title: "Amber Alert", desc:"Movie Description will be here", trailer: "https://www.youtube.com/watch?v=Hlo3o8um1FA", duration: 122, releaseDate: "2011", genre:"Drama", rating: "7.2"),
     Movie(image: UIImage(named:"apartment_seven_a"), title: "Apartment Seven A"),
     Movie(image: UIImage(named:"bonhoeffer_ver2"), title: "Bonhoeffer V2"),
     Movie(image: UIImage(named:"jackpot_ver2"), title: "Jackpot V2"),

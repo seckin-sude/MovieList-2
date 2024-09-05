@@ -32,6 +32,19 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 150.0 , height: 200.00)
+        let padding: CGFloat = 20
+        let collectionViewSize = myCollectionView.frame.size.width - padding
+        
+        let itemWidth = collectionViewSize /  2
+        
+        let cell = myCollectionView.dequeueReusableCell(withReuseIdentifier: "myCollectionCell", for: indexPath) as! MovieTwoColumnCell
+        
+        cell.movieImage.frame = CGRect(x: 0, y: 0, width: itemWidth, height: (16/9)*itemWidth)
+        
+        cell.movieName.frame = CGRect(x: 0, y: (16/9), width: 70, height: 20)
+        
+        
+        return CGSize(width: itemWidth , height: (16/9) * itemWidth)
+        
     }
 }
